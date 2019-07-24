@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif, Helvetica;
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.clock {
+  color: white;
+  font-family: Calibri, Helvetica;
+  font-size: 300%;
+  padding: 1px;
+}
+img {
+  height: 100px;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+h1 {
+  margin: 0;
+}
+
+#transparent {
+  background-color: white;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://tabicoffret.com/uploads/pixta_27742965_M_1.jpg);
+}
